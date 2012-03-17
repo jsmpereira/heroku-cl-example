@@ -9,6 +9,8 @@ First, get yourself set up with a [Heroku account and tools](http://devcenter.he
 
 Then [fork this project](/jsmpereira/heroku-cl-example/fork_select) (and optionally modify it with your own content).
 
+Change directory into the heroku-cl-example.
+
 Next, create your own Heroku application using CL Buildpack:
 
     heroku create -s cedar --buildpack http://github.com/jsmpereira/heroku-buildpack-cl.git
